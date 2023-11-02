@@ -1,0 +1,280 @@
+@font-face {
+    font-family: ClashDisplay;
+    src: url(../font/ClashDisplay-Variable.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ClashDisplay;
+    box-sizing: border-box;
+}
+body {
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+}
+h3 {
+    font-size: 28px;
+    line-height: 28px;
+}
+p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 28px;
+}
+/* Header Styles */
+header {
+    background-color: #fff;
+    color: #333; /* Changed text color to improve readability */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styles */
+.logo {
+    max-width: 100px;
+
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Changed link color for better visibility */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: Black;
+}
+
+/* Download Button Styles */
+
+.button {
+    color: #fff;
+    background-color: #000000;
+    padding: 16px 46px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 28px;
+    border: 2px solid transparent;
+}
+.button:hover {
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+}
+
+
+
+/* Hero Section Styles */
+.hero-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; /* Set the flex direction to row */
+    text-align: center;
+}
+
+.hero-section .col-xl-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+hero-section .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+
+hero-section img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Feature Section Styles */
+.feature-section {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.feature-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.feature-section h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+feature-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Advantage Section Styles */
+.advantage-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    text-align: center;
+}
+
+advantage-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+advantage-section h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+advantage-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Testimonial Section Styles */
+testimonial-section {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+testimonial-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+testimonial-section h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+testimonial-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+testimonial-section img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* FAQ Section Styles */
+faq-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+faq-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Section Styles */
+footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer-section h1 {
+    font-size: 1.5rem;
+}
+
+footer-section p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Newsletter Input Styles */
+footer-section input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Customize Bootstrap classes */
+.btn-primary {
+    background-color: #ff5733;
+    border: none;
+}
+
+/* Additional custom styles can be added here */
+/* Reset some default styles */
+
+/* Set the image-container as a relative positioned element */
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style the image */
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the overlay-text */
+  .overlay-text {
+    position: absolute;
+    top: 50%; /* Adjust this value to vertically center the text */
+    left: 50%; /* Adjust this value to horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background-color: #000000; /* Set the background color with some transparency */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Add some padding to the text */
+    font-size: 20px; /* Adjust the font size */
+  /*   text-align: center; /* Center the text horizontally */ */
+  }
+  
